@@ -21,3 +21,9 @@
 
 en:
   hello: "Hello world"
+  sessions:
+    new: 
+      rememberlogin: Remember me on this computer
+      login: Log in
+      newuser: New user?
+      signupnow: Sign up now!
