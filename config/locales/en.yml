@@ -27,3 +27,12 @@ en:
       login: Log in
       newuser: New user?
       signupnow: Sign up now!
+  users:
+    change: Change
+    signup: Sign up
+    save: Save
+    alluser: All users
+    yousure: You sure?
+    edit:
+      edituser: Edit user
+      updateprofile: Update your profile
