@@ -20,6 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  micropostfeed: Micropost Feed
+  usernotisset: User not isset!
+  microposts: Microposts
+  posted: Posted
+  ago: ago
   forgotpassword: forgot password!
   hello: "Hello world"
   sessions:

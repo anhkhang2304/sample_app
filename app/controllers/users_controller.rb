@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   include SessionsHelper
-  before_action :logged_in_user, only: [:index, :edit, :update]
+  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
   before_action :correct_user,   only: [:edit, :update]
   before_action :admin_user,     only: :destroy
 
@@ -10,11 +10,6 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
-  end
-
-  def show
-    @user = User.find_by id: params[:id]
-    redirect_to root_url and return unless FILL_IN
   end
 
   def create
@@ -30,6 +25,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   def destroy
