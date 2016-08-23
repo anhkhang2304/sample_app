@@ -20,9 +20,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  forgotpassword: forgot password!
   hello: "Hello world"
   sessions:
-    new: 
+    new:
       rememberlogin: Remember me on this computer
       login: Log in
       newuser: New user?
@@ -36,3 +37,7 @@ en:
     edit:
       edituser: Edit user
       updateprofile: Update your profile
+  passwordresets:
+    edit:
+      resetpassword: Reset password
+      updatepassword: Update password
