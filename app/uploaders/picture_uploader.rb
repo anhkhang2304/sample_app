@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# encoding: utf-8
-
-class PictureUploader < CarrierWave::Uploader::Base
-
   # encoding: utf-8
 
 class PictureUploader < CarrierWave::Uploader::Base
